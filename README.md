@@ -25,7 +25,11 @@ The following features have been added to the original codebase:
   - The main logic has been significantly updated in the file `main.lua`.
 
 - **New Files**:
-  - Additional utility files have been added under the `/util` directory, specifically those with "dt" in their filenames.
+  - Additional utility files have been added under the `/model` directory, specifically those with "dt" in their filenames:
+    - `LSTMTDNNdt.lua`: Deep-transition version of LSTM and DNN.
+    - `RNNdt.lua`: Deep-transition version of RNN.
+    - `LSTMTDNNdtDec.lua`: Deep-transition version of an LSTM Decoder.
+    - `LSTMTDNNdtSeq.lua`: Deep-transition version of an LSTM Seq2Seq Model.
 
 ## Prerequisites
 To run this project, you’ll need the following:
